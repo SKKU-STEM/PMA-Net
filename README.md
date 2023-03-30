@@ -1,4 +1,4 @@
-# PM-Net (Particle Morphology Networks)
+# PMA-Net (Particle Morphology Analysis Networks)
 
 ## Deep learning morphological distribution analysis of metal alloy catalysts in proton exchange membrane fuel cells 
 
