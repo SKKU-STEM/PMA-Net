@@ -20,4 +20,3 @@ pip install -r requirements.txt
 ```
 python3 run.py
 ```
- - Running script is interactive mode. So, just type an environment that the script requires.
