@@ -6,3 +6,18 @@ Sang-Hyeok Yang†, Eun-Byeol Park†, Sung Yong Cho†, Yun Sik Kang, Hyeon-Ah 
 
 Published in __Materials Today Energy__ (2023) _101348_. https://doi.org/10.1016/j.mtener.2023.101348
 
+
+### Prerequisites
+- Python 3 (Anaconda 3)
+- CPU or NVIDIA GPU + CUDA CuDNN
+
+### Install
+```
+pip install -r requirements.txt
+```
+
+### Run
+```
+python3 test.py
+```
+ - Running script is interactive mode. So, just type an environment that the script requires.
