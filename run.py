@@ -1,3 +1,4 @@
+import gdown
 import warnings
 warnings.filterwarnings(action = 'ignore')
 import os
@@ -61,7 +62,12 @@ def set_parameter():
 def load_model():
     model_dir = "model/Attention_UNet.pt"
     net = AttentionUNet(img_ch = 1, output_ch = 3)
-    net.load_state_dict(torch.load(model_dir))
+    try:
+        net.load_state_dict(torch.load(model_dir))
+    except:
+        gdown.download("https://drive.google.com/uc?id=1OyxqKQVX-k3_2ijbQBhQLGbcgsDPb6l4", 
+                        "model/Attention_UNet.pt")
+        net.load_state_dict(torch.load(model_dir))
     
     return net
 
