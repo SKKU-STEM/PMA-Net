@@ -4,19 +4,22 @@
 
 Sang-Hyeok Yang†, Eun-Byeol Park†, Sung Yong Cho†, Yun Sik Kang, Hyeon-Ah Ju, Yerin Jun, Daehee Yang, Sung-Dae Yim*, Sungchul Lee*, and Young-Min Kim*
 
-Published in __Materials Today Energy__ (2023) _101348_. https://doi.org/10.1016/j.mtener.2023.101348
+Published in ___Materials Today Energy___ (2023) 101348. https://doi.org/10.1016/j.mtener.2023.101348
 
 
-### Prerequisites
+## Prerequisites
+
 - Python 3 (Anaconda 3)
 - CPU or NVIDIA GPU + CUDA CuDNN
 
-### Install
+## Install
+
 ```
 pip install -r requirements.txt
 ```
 
-### Run
+## Run
+
 ```
 python3 run.py
 ```
