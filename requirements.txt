@@ -1,4 +1,4 @@
 gdown
 torch==1.11.0
 hyperspy==1.7.3
-sklearn==0.24.1
+scikit-learn==0.24.1
