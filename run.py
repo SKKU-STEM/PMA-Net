@@ -107,9 +107,8 @@ def run_model(input_data_dir, model, device, cal_dist):
 
         single_area = []
         agg_area = []
-        if cal_dist:
-            single_distance = []
-            agg_distance = []
+        single_distance = []
+        agg_distance = []
 
         for i in range(1, label_max):
             area = (instance_seg_map.data == i)
